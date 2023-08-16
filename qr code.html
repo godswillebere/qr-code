@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../web-dev/js/qr code.js" />
+    <link rel="stylesheet" href="../web-dev/styles/qr code.css">
+</head>
+<body>
+        <main class="container bg-dark-subtle">
+            <section class="header">
+                <div class="title">quick response code [qr code]</div>
+                <div class="sub-title">Create, Custom, and design QR Codes for your brand</div>
+            </section>
+            <section class="input">
+                <input type="text" name="search" id="qr-text" placeholder="Generate QR code...">
+                <button id="generate">Generate</button>
+            </section>
+            <div class="qr-container">
+                <div class="code"><img src="../web-dev/assets/images.png" alt=""></div>
+            </div>
+            <div class="download">
+                <button>download</button>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</body>
+</html>
